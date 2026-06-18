@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>搜索筛选-热播电视剧大全-热播剧集大全-全集高清在线播放</title>
+  <meta name="description" content="热播剧集搜索页面，可按片名、地区、年份、题材和标签查找影片详情页。">
+  <meta name="keywords" content="热播电视剧大全,热播剧集,热门电视剧,电视剧片库,全集播放,高清剧集,剧集榜单">
+  <meta name="robots" content="index,follow">
+  <link rel="stylesheet" href="./assets/site.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="./index.html" aria-label="热播剧集大全">
+        <span class="logo-mark">▶</span>
+        <span class="logo-text">
+          <strong>热播剧集大全</strong>
+          <small>高清免费观看 · 热播剧集资源</small>
+        </span>
+      </a>
+      <nav class="desktop-nav" aria-label="主导航">
+        <a class="nav-link" href="./index.html">首页</a>
+        <a class="nav-link" href="./categories.html">分类</a>
+        <a class="nav-link" href="./rankings.html">排行榜</a>
+        <a class="nav-link" href="./category-hot-series.html">热播精选</a>
+        <a class="nav-link" href="./category-hd-dramas.html">高清片单</a>
+      </nav>
+      <div class="header-actions">
+        <form class="search-form" action="./search.html" method="get" role="search">
+          <label class="sr-only" for="global-search">搜索剧集</label>
+          <input id="global-search" name="q" type="search" placeholder="搜索剧集..." autocomplete="off">
+          <button type="submit" aria-label="提交搜索">⌕</button>
+        </form>
+        <button class="menu-toggle" type="button" aria-label="打开导航" data-menu-toggle>☰</button>
+      </div>
+    </div>
+    <div class="mobile-panel" data-mobile-panel>
+      <form class="mobile-search" action="./search.html" method="get" role="search">
+        <input name="q" type="search" placeholder="搜索剧集、地区、题材...">
+        <button type="submit">搜索</button>
+      </form>
+        <a class="mobile-link" href="./index.html">首页</a>
+        <a class="mobile-link" href="./categories.html">分类</a>
+        <a class="mobile-link" href="./rankings.html">排行榜</a>
+        <a class="mobile-link" href="./category-hot-series.html">热播精选</a>
+        <a class="mobile-link" href="./category-hd-dramas.html">高清片单</a>
+    </div>
+  </header>
+  <main>
+    <section class="sub-hero search-hero">
+      <span class="eyebrow">Search</span>
+      <h1>搜索筛选</h1>
+      <p>输入剧名、地区、年份、题材或标签，即可在 2000 条影片数据中检索。</p>
+    </section>
+    <section class="section">
+      <div class="search-panel">
+        <form class="large-search" action="./search.html" method="get">
+          <input name="q" type="search" placeholder="输入关键词，例如：家庭、悬疑、2025、法国" data-search-input>
+          <button type="submit">搜索</button>
+        </form>
+        <p class="filter-result" data-search-status>请输入关键词或从顶部搜索进入。</p>
+      </div>
+      <div class="movie-grid grid-4" data-search-results></div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-logo">
+            <span class="logo-mark">▶</span>
+            <strong>热播剧集大全</strong>
+          </div>
+          <p>热播电视剧大全页面整理当前热度较高的剧集内容，包含多地区剧集与分类片单，方便连续浏览。</p>
+        </div>
+        <div>
+          <h3>快速链接</h3>
+          <ul>
+            <li><a href="./index.html">首页</a></li>
+            <li><a href="./categories.html">分类总览</a></li>
+            <li><a href="./rankings.html">剧集榜单</a></li>
+            <li><a href="./search.html">搜索筛选</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>热门分类</h3>
+          <ul>
+          <li><a href="./category-hot-series.html">热播剧集精选</a></li>
+          <li><a href="./category-hd-dramas.html">高清剧集片单</a></li>
+          <li><a href="./category-region-mix.html">多地区剧集</a></li>
+          <li><a href="./category-full-episodes.html">全集连续浏览</a></li>
+          <li><a href="./category-popular-picks.html">口碑剧集推荐</a></li>
+          <li><a href="./category-tv-library.html">电视剧片库</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 热播剧集大全</span>
+        <span>影视片库 · 响应式页面</span>
+      </div>
+    </div>
+  </footer>
+  <script src="./assets/movies.js"></script>
+  <script src="./assets/app.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>

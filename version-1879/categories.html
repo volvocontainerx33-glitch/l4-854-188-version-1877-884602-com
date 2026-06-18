@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>分类片单-精选欧美电影-精选电影合集-热门影片在线点播</title>
+    <meta name="description" content="整理精选欧美电影片单，结合题材、口碑和热度呈现多样影片内容。">
+    <meta name="keywords" content="精选欧美电影,欧美电影,精选电影合集,在线点播,热门电影,高分电影,电影分类,影片片单">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest" defer></script>
+    <script src="./assets/js/main.js" defer></script>
+</head>
+<body>
+    <header class="site-header" data-site-header>
+        <div class="site-header__inner">
+            <a class="site-logo" href="index.html" aria-label="精选欧美电影">
+                <span class="site-logo__mark">▶</span>
+                <span class="site-logo__text">
+                    <strong>精选欧美电影</strong>
+                    <small>高清热门影片</small>
+                </span>
+            </a>
+            <nav class="desktop-nav" aria-label="主导航">
+                    <a class="nav-link" href="index.html">首页</a>
+                    <a class="nav-link is-active" href="categories.html">分类</a>
+                    <a class="nav-link" href="rankings.html">排行榜</a>
+            </nav>
+            <form class="header-search" action="index.html" method="get" data-search-form>
+                <input type="search" name="q" placeholder="搜索影片" aria-label="搜索影片" data-search-input>
+                <button type="submit">搜索</button>
+            </form>
+            <button class="mobile-toggle" type="button" data-mobile-toggle aria-label="打开导航">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <div class="mobile-panel" data-mobile-panel>
+            <a href="index.html">首页</a>
+            <a href="categories.html">分类</a>
+            <a href="rankings.html">排行榜</a>
+            <form class="mobile-search" action="index.html" method="get" data-search-form>
+                <input type="search" name="q" placeholder="搜索影片" aria-label="移动端搜索影片" data-search-input>
+                <button type="submit">搜索</button>
+            </form>
+        </div>
+    </header>
+    <main class="page-main page-main--inner">
+        <section class="inner-hero container">
+            <p class="eyebrow">Categories</p>
+            <h1>分类片单总览</h1>
+            <p>围绕精选欧美电影、热门影片、高分口碑与多类型内容建立独立片单，便于快速浏览与点播。</p>
+        </section>
+        <section class="container category-grid">
+                <article class="category-card">
+                    <a href="category-european-choice.html" class="category-card__link">
+                        <div class="category-card__mosaic">
+                            <img src="./2.jpg" alt="瓦姿玛的抉择" loading="lazy">
+                            <img src="./16.jpg" alt="超时空同居" loading="lazy">
+                            <img src="./45.jpg" alt="错位剧场版" loading="lazy">
+                            <img src="./54.jpg" alt="黑带出勤中" loading="lazy">
+                        </div>
+                        <div class="category-card__body">
+                            <p class="eyebrow">Collection</p>
+                            <h2>欧美精选</h2>
+                            <p>汇聚多地区高热度电影内容，适合从口碑与题材角度快速挑选。</p>
+                            <span>进入片单</span>
+                        </div>
+                    </a>
+                </article>
+                <article class="category-card">
+                    <a href="category-hot-online.html" class="category-card__link">
+                        <div class="category-card__mosaic">
+                            <img src="./14.jpg" alt="茄子行李箱的候鸟" loading="lazy">
+                            <img src="./22.jpg" alt="60日的夏天" loading="lazy">
+                            <img src="./26.jpg" alt="路上的灵魂" loading="lazy">
+                            <img src="./46.jpg" alt="失落的王子" loading="lazy">
+                        </div>
+                        <div class="category-card__body">
+                            <p class="eyebrow">Collection</p>
+                            <h2>热门点播</h2>
+                            <p>集中呈现适合在线点播的热门影片，覆盖剧情、动作、悬疑与情感题材。</p>
+                            <span>进入片单</span>
+                        </div>
+                    </a>
+                </article>
+                <article class="category-card">
+                    <a href="category-high-score.html" class="category-card__link">
+                        <div class="category-card__mosaic">
+                            <img src="./5.jpg" alt="超级武神之索命决" loading="lazy">
+                            <img src="./10.jpg" alt="土豆侠第一季" loading="lazy">
+                            <img src="./24.jpg" alt="怪兽：黑暗大陆" loading="lazy">
+                            <img src="./47.jpg" alt="老婆我抵死" loading="lazy">
+                        </div>
+                        <div class="category-card__body">
+                            <p class="eyebrow">Collection</p>
+                            <h2>高分片单</h2>
+                            <p>以观感、故事完整度和题材丰富度为核心，整理更具讨论度的作品。</p>
+                            <span>进入片单</span>
+                        </div>
+                    </a>
+                </article>
+                <article class="category-card">
+                    <a href="category-new-release.html" class="category-card__link">
+                        <div class="category-card__mosaic">
+                            <img src="./4.jpg" alt="午夜狂欢" loading="lazy">
+                            <img src="./11.jpg" alt="不要伤害我的小孩" loading="lazy">
+                            <img src="./13.jpg" alt="音乐战争" loading="lazy">
+                            <img src="./19.jpg" alt="66号客栈" loading="lazy">
+                        </div>
+                        <div class="category-card__body">
+                            <p class="eyebrow">Collection</p>
+                            <h2>年度新片</h2>
+                            <p>收录近年热度较高的电影与剧集，方便按年份和类型筛选浏览。</p>
+                            <span>进入片单</span>
+                        </div>
+                    </a>
+                </article>
+                <article class="category-card">
+                    <a href="category-suspense-thriller.html" class="category-card__link">
+                        <div class="category-card__mosaic">
+                            <img src="./17.jpg" alt="症状" loading="lazy">
+                            <img src="./23.jpg" alt="捣乱剧团在怪兽之地" loading="lazy">
+                            <img src="./33.jpg" alt="替身情缘" loading="lazy">
+                            <img src="./36.jpg" alt="阖府抢钱粤语" loading="lazy">
+                        </div>
+                        <div class="category-card__body">
+                            <p class="eyebrow">Collection</p>
+                            <h2>悬疑惊悚</h2>
+                            <p>适合喜欢反转、推理、密闭空间、心理博弈与紧张氛围的观众。</p>
+                            <span>进入片单</span>
+                        </div>
+                    </a>
+                </article>
+                <article class="category-card">
+                    <a href="category-action-adventure.html" class="category-card__link">
+                        <div class="category-card__mosaic">
+                            <img src="./1.jpg" alt="致命第六感" loading="lazy">
+                            <img src="./15.jpg" alt="安妮要自由" loading="lazy">
+                            <img src="./30.jpg" alt="确定的事情" loading="lazy">
+                            <img src="./31.jpg" alt="锦绣前程1945" loading="lazy">
+                        </div>
+                        <div class="category-card__body">
+                            <p class="eyebrow">Collection</p>
+                            <h2>动作冒险</h2>
+                            <p>覆盖动作、武侠、冒险、犯罪追逐与高强度视听体验作品。</p>
+                            <span>进入片单</span>
+                        </div>
+                    </a>
+                </article>
+                <article class="category-card">
+                    <a href="category-romance-emotion.html" class="category-card__link">
+                        <div class="category-card__mosaic">
+                            <img src="./3.jpg" alt="哥哥我爱你" loading="lazy">
+                            <img src="./7.jpg" alt="魁拔之十万火急" loading="lazy">
+                            <img src="./8.jpg" alt="南少林之怒目金刚" loading="lazy">
+                            <img src="./29.jpg" alt="猫之茗" loading="lazy">
+                        </div>
+                        <div class="category-card__body">
+                            <p class="eyebrow">Collection</p>
+                            <h2>爱情情感</h2>
+                            <p>聚焦爱情、家庭、成长与人物关系，适合偏好细腻情绪表达的观众。</p>
+                            <span>进入片单</span>
+                        </div>
+                    </a>
+                </article>
+                <article class="category-card">
+                    <a href="category-drama-life.html" class="category-card__link">
+                        <div class="category-card__mosaic">
+                            <img src="./38.jpg" alt="复仇的未亡人" loading="lazy">
+                            <img src="./42.jpg" alt="荒唐阿姨大电影" loading="lazy">
+                            <img src="./57.jpg" alt="滑铁卢战役" loading="lazy">
+                            <img src="./63.jpg" alt="风流骗子" loading="lazy">
+                        </div>
+                        <div class="category-card__body">
+                            <p class="eyebrow">Collection</p>
+                            <h2>剧情佳片</h2>
+                            <p>从生活、社会、人物命运和现实议题出发，呈现更扎实的剧情内容。</p>
+                            <span>进入片单</span>
+                        </div>
+                    </a>
+                </article>
+                <article class="category-card">
+                    <a href="category-comedy-animation.html" class="category-card__link">
+                        <div class="category-card__mosaic">
+                            <img src="./18.jpg" alt="以她之名" loading="lazy">
+                            <img src="./48.jpg" alt="凯瑟琳大帝第三季" loading="lazy">
+                            <img src="./58.jpg" alt="夏日逍遥" loading="lazy">
+                            <img src="./59.jpg" alt="爸爸不要说再见" loading="lazy">
+                        </div>
+                        <div class="category-card__body">
+                            <p class="eyebrow">Collection</p>
+                            <h2>喜剧动画</h2>
+                            <p>收录轻松喜剧、动画冒险、家庭娱乐和温暖治愈类影片。</p>
+                            <span>进入片单</span>
+                        </div>
+                    </a>
+                </article>
+                <article class="category-card">
+                    <a href="category-fantasy-scifi.html" class="category-card__link">
+                        <div class="category-card__mosaic">
+                            <img src="./9.jpg" alt="情肠辘辘" loading="lazy">
+                            <img src="./28.jpg" alt="小镇的天空" loading="lazy">
+                            <img src="./35.jpg" alt="我的音乐" loading="lazy">
+                            <img src="./44.jpg" alt="就像在天堂" loading="lazy">
+                        </div>
+                        <div class="category-card__body">
+                            <p class="eyebrow">Collection</p>
+                            <h2>奇幻科幻</h2>
+                            <p>集合奇幻、科幻、超自然、平行世界与想象力题材内容。</p>
+                            <span>进入片单</span>
+                        </div>
+                    </a>
+                </article>
+                <article class="category-card">
+                    <a href="category-asian-chinese.html" class="category-card__link">
+                        <div class="category-card__mosaic">
+                            <img src="./6.jpg" alt="老婆结婚了" loading="lazy">
+                            <img src="./12.jpg" alt="天堂契约" loading="lazy">
+                            <img src="./20.jpg" alt="势在必胜" loading="lazy">
+                            <img src="./21.jpg" alt="我跟踪猫" loading="lazy">
+                        </div>
+                        <div class="category-card__body">
+                            <p class="eyebrow">Collection</p>
+                            <h2>华语亚洲</h2>
+                            <p>关注华语、日韩及亚洲地区作品，题材跨度丰富，风格多样。</p>
+                            <span>进入片单</span>
+                        </div>
+                    </a>
+                </article>
+                <article class="category-card">
+                    <a href="category-series-variety.html" class="category-card__link">
+                        <div class="category-card__mosaic">
+                            <img src="./60.jpg" alt="魔法少年" loading="lazy">
+                            <img src="./62.jpg" alt="致命礼物" loading="lazy">
+                            <img src="./64.jpg" alt="沉睡花园" loading="lazy">
+                            <img src="./67.jpg" alt="利剑红尘" loading="lazy">
+                        </div>
+                        <div class="category-card__body">
+                            <p class="eyebrow">Collection</p>
+                            <h2>剧集综艺</h2>
+                            <p>聚合剧集、综艺、动画剧集和长线叙事内容，适合连续追看。</p>
+                            <span>进入片单</span>
+                        </div>
+                    </a>
+                </article>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="site-footer__inner">
+            <a class="site-footer__brand" href="index.html">精选欧美电影</a>
+            <p>精选欧美电影、热门影片与多类型片单在线浏览。</p>
+            <div class="site-footer__links">
+                <a href="index.html">首页</a>
+                <a href="categories.html">分类</a>
+                <a href="rankings.html">排行榜</a>
+            </div>
+        </div>
+    </footer>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
